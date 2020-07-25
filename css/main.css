@@ -23,9 +23,11 @@ body{
 .header_container{
     max-width:90rem;
     width:100%;
+    box-sizing:border-box;
     display:flex;
     justify-content:space-between;
     margin:0 auto;
+    padding:0 .5rem;
 }
 
 .header_logo_container{
@@ -93,6 +95,7 @@ body{
     margin:0 auto;
     border-bottom:.05rem solid #C4C4C4;
     box-sizing:border-box;
+    padding:0 .5rem;
 }
 
 .main_titile{
@@ -128,20 +131,20 @@ body{
 .filtermenu_container{
     max-width:90rem;
     width:100%;
-    min-height:3.5rem;
+
     display:flex;
     justify-content:space-between;
     align-items:center;
     margin:0 auto;
-    padding:0;
+    padding:0 .5rem;
     list-style:none;
     border-bottom:.05rem solid #C4C4C4;
-
+    box-sizing:border-box;
 }
 
 .filter_element{
     max-width:13rem;
-    min-height:inherit;
+    height:3.5rem;
     align-items:center;
     justify-content: center;
     font-size:.95rem;
@@ -150,6 +153,7 @@ body{
     display:flex;
     color: #676767;
     box-sizing:border-box;
+    border-bottom: .05rem solid transparent;
 }
 
 .filter_element input[type=search]{
@@ -185,6 +189,10 @@ body{
     max-width:90rem;
     width:100%;
     margin:0 auto;
+    padding:0 .5rem;
+    box-sizing:border-box;
+    overflow:hidden;
+
 }
 
 .header_list{
@@ -235,6 +243,7 @@ body{
     max-width:8.75rem;
 }
 
+
 .line_list{
     display:flex;
     justify-content:space-between;
@@ -242,11 +251,11 @@ body{
     padding:0;
     margin:0;
     border-bottom:.05rem solid #C4C4C4;
-    transition:all .5s ease-in-out;
+    transition:all .24s ease-in-out;
 }
 
 .line_list:hover{
-    background-color: #b6b6b6;
+    background-color: #d7d7d7;
     cursor:pointer;
     color:#fff;
 }
